@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'avenir';
+    src: url('fonts/Avenir.ttc'); 
+}
+@font-face {
+    font-family: 'kiona';
+    src: url('fonts/Kiona-Regular.ttc'); 
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: avenir;
+}
+.barra-1 {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.barra-1 i {
+    padding: 15px;
+    font-size: 25px;
+}
+.barra-1 i:hover {
+    transform: scale(1.3);
+}
+.banner {
+    background-image: url(images/hp\ \(3\).png);
+    background-size: cover;
+    background-position-y: center;
+    height: 650px;
+}
+.ficha-lateral {
+    color: white;
+    background-color: #7BD9A1;
+    padding: 10px 60px;
+    width: fit-content;
+    text-align: left;
+    margin: 200px 0px;
+    box-shadow: 1px 0px 10px rgba(0,0,0,0.2);
+}
+.ficha-lateral h2 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: kiona;  
+}
+.ficha-lateral p {
+    font-size: 18px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-family: avenir;
+    font-style: oblique;
+    margin: 0px;
+}
+.barra-2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.barra-2 a {
+    color: white;
+    font-size: 40px;
+    animation: bounce;
+    animation-duration: 2s;
+}
+.barra-2 a:hover {
+    transform: scale(1.3);
+}
+.titulos h2{
+    font-family: kiona;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.nosotros p{
+    font-size: 20px;
+}
+
+/* CARDS */
+ 
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.proyecto h2 {
+    font-family: kiona;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.proyecto p {
+    font-size: 15px;
+}
+
+.avatar img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.avatar img:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: ease-in-out;
+}
+
+/* FOOTER */
+
+.footer {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+  }
+.footer-links {
+    display: flex;
+    align-items: center;
+  }
+.footer-links a {
+    color: black;
+    opacity: 0.3;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+.footer-links a:hover {
+    opacity: 1;
+  }
+
+  
+  
