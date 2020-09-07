@@ -9,29 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <script defer src="javascript.js"></script>
 
 </head>
 <body>
 
     <!-- HEADER -->
 
-    <header class="banner">
-        <div class="container-fluid">
-            <div class="barra-1">
-                <img src="images/logohueco.png" alt="Logo" style="height: 50px;" />
-                <!-- <img src="images/logo-gif.gif" alt="logo con palabra" style="height: 50px;" /> -->
-                <i class="fas fa-bars"></i>
+   
+    <div class="hero-image">
+        <div id="navbar" class="barra-1">
+            <img src="images/logohueco.PNG" alt="logo con palabra" style="height: 3rem;"  />
+            <i class="fas fa-bars"></i>
             </div>
+            <div class="hero-text">
+                <p>Proyecto</p>
+                <h2>HEWLETT PACKARD</h2>
         </div>
-
-        <div class="pestaña">
-            <div class="ficha-lateral">          
-               <p>Proyecto</p>
-               <h2>Hewlett Packard</h2>
-            </div>
-        </div>
-    </header>
+    </div>
 
     <div class="container-fluid" style="background-color: #4E6DBA;">
         <div class="barra-2">
@@ -42,12 +37,12 @@
 
     <!-- CONTENIDO -->
 
-    <main>
+
         <div class="text-center titulos">
             <h2>Nosotros</h2>
         </div>
         <div class="container-fluid nosotros">
-            <div class="col-8 py-1">
+            <div class="col-12 col-sm-8 col-md-8 py-1">
                 <div> 
                     <div class="container">
                         <p>Somos un estudio de arquitectura dedicado a proyectar y construir espacios de trabajo a la medida de las personas.  
@@ -68,57 +63,57 @@
         </div>
 
 
-        <div class="container obras">
+        <div class="container-fluid obras ">
             <div class="row">
 
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/hp (6).png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>HPE</strong></h2>
                         <p>Obra nueva de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
                     </div>
                     
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/bbdo (3).png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>BBDO</strong></h2>
                         <p>Proyecto de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
                     </div>
                     
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/fmi (2).png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>FMI</strong></h2>
                         <p>Proyecto de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
                     </div>
                     
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/bof (4).png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>BOF</strong></h2>
                         <p>Proyecto de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
                     </div>
                     
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/agd.png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>AGD</strong></h2>
                         <p>Obra nueva de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
                     </div>
                     
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 proyecto">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 proyecto">
                     <a href="#"><picture class="avatar"><img src="images/poen.png" alt=""></picture></a>
-                    <div>
+                    <div class="proyecto-texto">
                         <h2 style="font-family: kiona;"> <strong>POEN</strong></h2>
                         <p>Obra nueva de interiorismo. Buenos Aires, Argentina; 2000 m². Aca podemos agregar una descripcion de la obra realizada como mejor nos parezca. </p>
                         <p> <i> 2020 </i> </p>
@@ -127,11 +122,11 @@
                 </div>
             </div>
         </div>
-    </main>
+
 
     <!-- FOOTER -->
 
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-links">
 
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -142,7 +137,7 @@
         <div class="footer-copyright">
           Made by: play <i class="fas fa-rocket"></i> staff
         </div>
-    </footer>
+    </div>
       
 
     <!-- SCRIPTS -->
